@@ -35,6 +35,9 @@
     "slug": {
       "type": "uid",
       "targetField": "name"
+    },
+    "link": {
+      "type": "string"
     }
   }
 }

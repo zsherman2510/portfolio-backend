@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "name": "Courses"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "completed": {
+      "type": "boolean"
+    },
+    "releaseDate": {
+      "type": "date"
+    },
+    "technology": {
+      "type": "text"
+    }
+  }
+}
