@@ -1,5 +1,5 @@
 const slugify = require("slugify");
-
+// made a comment
 module.exports = {
   lifecycles: {
     beforeCreate: async (data) => {
